@@ -1,9 +1,5 @@
-import { Flex } from '@chakra-ui/react';
+import { Flex, Heading } from '@chakra-ui/react';
 import { NextSeo } from 'next-seo';
-
-import CTASection from '~/lib/components/samples/CTASection';
-import SomeImage from '~/lib/components/samples/SomeImage';
-import SomeText from '~/lib/components/samples/SomeText';
 
 const Home = () => {
   return (
@@ -17,9 +13,8 @@ const Home = () => {
       w="full"
     >
       <NextSeo title="Home" />
-      <SomeText />
-      <SomeImage />
-      <CTASection />
+      <Heading>Tax Preparation and Planning</Heading>
+      <Heading>IRS Tax Problems</Heading>
     </Flex>
   );
 };
